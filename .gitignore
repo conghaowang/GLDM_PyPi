@@ -1,0 +1,7 @@
+# Ignore directories for PyPI package setup
+dist/
+build/
+*.egg-info/
+gldm/*.csv
+.ipynb_checkpoints/
+*_models/
