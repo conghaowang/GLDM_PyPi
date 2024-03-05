@@ -42,8 +42,8 @@ if __name__ == "__main__":
     # gene_expression_file = 'pseudo_gene_expr_dose.pt'
     dummy_gene_expr = torch.rand((10, 979))
     sampleMol(model_path, config_file, gene_expression=dummy_gene_expr, num_samples=10, output_file='samples.pkl', save_img='samples.png')
-
 ```
+A similar example can be found in [Example_usage.ipynb](Example_usage.ipynb).
 
 The `sampleMol` function has the following parameters:
 
@@ -61,3 +61,7 @@ The `sampleMol` function has the following parameters:
 - The default configuration files are provided in the [config](config) folder. Remember to change `config['model']['first_stage_config']['ckpt_path']` to the path that you stored the pretrained autoencoder models.
 - We provide conditional and unconditional models using VAE, AAE and WAE losses. Please ensure the autoencoder model and the diffusion model are consistent in terms of the loss function and the conditional setting.
 - Ensure the gene expression data are provided if the conditional models are used. 
+
+## Training GLDM from scratch
+
+***Coming soon ...***
