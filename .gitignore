@@ -4,3 +4,4 @@ build/
 *.egg-info/
 gldm/*.csv
 .ipynb_checkpoints/
+*_models/
