@@ -1,6 +1,6 @@
 # GLDM_PyPi
 
-This repository contains the package of [gldm](https://pypi.org/project/gldm/). 
+This [repository](https://github.com/nomoresomethingwentwrong/GLDM_PyPi) contains the user documentation of [gldm package](https://pypi.org/project/gldm/). Implementation of GLDM is stored [here](https://github.com/nomoresomethingwentwrong/GLDM). 
 
 ## Environment Setup
 
