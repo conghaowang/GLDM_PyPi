@@ -27,7 +27,7 @@ model:
   first_stage_config:
     target: gldm.autoencoder.model.BaseModel
     model_type: vae
-    ckpt_path: first_stage_models/VAE_uncond.pt
+    ckpt_path: AE_models/VAE_uncond.pt
     using_lincs: False
   
   cond_stage_config: __is_unconditional__

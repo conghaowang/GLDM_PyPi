@@ -33,7 +33,7 @@ model:
     using_lincs: False
     using_wasserstein_loss: True
     using_gp: True
-    ckpt_path: first_stage_models/WAE_uncond.pt
+    ckpt_path: AE_models/WAE_uncond.pt
   
   cond_stage_config: __is_unconditional__
 
