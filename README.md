@@ -65,3 +65,24 @@ The `sampleMol` function has the following parameters:
 ## Training GLDM from scratch
 
 ***Coming soon ...***
+
+---
+
+## Citation
+
+```
+@article{10.1093/bib/bbae142,
+    author = {Wang, Conghao and Ong, Hiok Hian and Chiba, Shunsuke and Rajapakse, Jagath C},
+    title = "{GLDM: hit molecule generation with constrained graph latent diffusion model}",
+    journal = {Briefings in Bioinformatics},
+    volume = {25},
+    number = {3},
+    pages = {bbae142},
+    year = {2024},
+    month = {04},
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbae142},
+    url = {https://doi.org/10.1093/bib/bbae142},
+    eprint = {https://academic.oup.com/bib/article-pdf/25/3/bbae142/57160111/bbae142.pdf},
+}
+```
