@@ -40,7 +40,7 @@ if __name__ == "__main__":
     model_path = 'GLDM_models/GLDM_WAE_cond.pt'
     config_file = 'config/GLDM_WAE_cond.yml'
     # gene_expression_file = 'pseudo_gene_expr_dose.pt'
-    dummy_gene_expr = torch.rand((10, 979))
+    dummy_gene_expr = torch.rand((10, 979))  # 978 gene expression profile and 1 dosage value
     sampleMol(model_path, config_file, gene_expression=dummy_gene_expr, num_samples=10, output_file='samples.pkl', save_img='samples.png')
 ```
 A similar example can be found in [Example_usage.ipynb](Example_usage.ipynb).
@@ -51,7 +51,7 @@ The `sampleMol` function has the following parameters:
 | --- | --- |
 | `model_path` | The path to the pretrained model file. |
 | `config_file` | The path to the configuration file. |
-| `gene_expression` | A PyTorch tensor or a Numpy array or a list representing the gene expression. |
+| `gene_expression` | A PyTorch tensor or a Numpy array or a list representing the gene expression + dosage. |
 | `gene_expression_file` | The path to the file containing the gene expression tensors. If `gene_expression` is provided, this parameter will be ignored. |
 | `num_samples` | The number of molecules to be generated. |
 | `output_file` | The pickle file where the generated molecules will be saved. |
